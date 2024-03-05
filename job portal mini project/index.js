@@ -13,9 +13,9 @@ const app = express();
 
 app.use(cookieParser());
 app.use(express.json());
-app.use("/codingninjas/api/user", userRouter);
-app.use("/codingninjas/api/job", jobRouter);
-app.use("/codingninjas/api/likes", likeRouter);
+app.use("/api/user", userRouter);
+app.use("/api/job", jobRouter);
+app.use("/api/likes", likeRouter);
 
 app.use(appLevelErrorHandlerMiddleware);
 
