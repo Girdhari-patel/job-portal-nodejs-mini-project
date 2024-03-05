@@ -1,6 +1,6 @@
 # Title: Job Portal
-
-# Introduction + Scenario:
+# used nodejs, mongoose , Rest APIs
+# Introduction :
 
 This project focuses on the job-related functionalities and introduces a 'like' system for both jobs and user profiles.
 
